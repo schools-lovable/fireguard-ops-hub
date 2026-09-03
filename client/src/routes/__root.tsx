@@ -13,6 +13,7 @@ export const Route = createRootRoute({
     ],
     links: [
       { rel: "stylesheet", href: appCss },
+      { rel: "icon", type: "image/png", href: "/manus-storage/fireguard-mark_095028dc.png" },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       {
@@ -21,8 +22,17 @@ export const Route = createRootRoute({
       },
     ],
   }),
+  component: RootComponent,
   shellComponent: RootDocument,
 });
+
+function RootComponent() {
+  return (
+    <AppProviders>
+      <Outlet />
+    </AppProviders>
+  );
+}
 
 function RootDocument({ children }: { children: ReactNode }) {
   return (
@@ -35,13 +45,5 @@ function RootDocument({ children }: { children: ReactNode }) {
         <Scripts />
       </body>
     </html>
-  );
-}
-
-export function RootLayout() {
-  return (
-    <AppProviders>
-      <Outlet />
-    </AppProviders>
   );
 }
