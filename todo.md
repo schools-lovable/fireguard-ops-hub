@@ -1,0 +1,130 @@
+# FireGuard Data-Backed Workflow Upgrade
+
+- [x] Upgrade the current static workspace to the full-stack template and confirm the available backend patterns.
+- [x] Define the client, site, work-order, exception, report, and permission data model.
+- [x] Add clearly labeled demonstration records to exercise end-to-end workflows safely.
+- [x] Replace interface-only workflow surfaces with data-backed clients, sites, and work orders.
+- [x] Add role-aware navigation and action permissions for field teams, reviewers, and managers.
+- [x] Add downloadable report exports based on current operational data.
+- [x] Build the in-app exception centre with scheduled digest records, overdue alerts, and manager controls.
+- [x] Validate desktop and mobile data states, permissions, exports, and notification handling.
+- [x] Publish this checkpoint, then activate the daily 09:00 UTC exception digest from the in-app exception centre.
+- [x] Add a premium accessible hover and keyboard-focus label treatment to every sidebar navigation control.
+- [x] Replace the static team avatar stack with a clear active-users indicator in the shared application shell.
+- [x] Add a live Team page with each operator’s current route and last activity.
+- [x] Add manager-controlled arrival alerts for reviewer and field-team presence events.
+- [x] Add a compact mobile active-users drawer for supervisor use.
+- [x] Remove the two marked shared-shell controls and keep the desktop sidebar fixed while page content scrolls.
+- [x] Inspect repository history for the prior Academy implementation and document recoverable elements.
+- [x] Add Academy courses with structured video, reading, quiz, and flashcard lessons.
+- [x] Add auto-graded quiz attempts, course progress tracking, completion badges, and learner records.
+- [x] Add manager Academy oversight and staff progress views.
+- [x] Add automated in-app learning reminders and verify their active daily 09:00 UTC schedule.
+- [x] Validate Academy learning flows at desktop and mobile widths.
+- [x] Validate the complete Academy learner workflow on desktop, including lesson completion, quiz grading, flashcard navigation, and course progress updates.
+- [x] Validate the complete Academy learner workflow on mobile and confirm the course-detail layout remains usable.
+- [x] Verify the Academy manager reminder controls show the active schedule and provide manual reminder feedback.
+- [x] Exercise the Academy learner services end to end and confirm lesson, quiz, flashcard, progress, and badge results.
+- [x] Recheck the Academy lesson states at desktop and mobile widths after learner-progress updates.
+- [x] Verify the authenticated Academy manager preview shows the active reminder state after schedule activation.
+- [x] Recheck completed Academy lesson-detail states on desktop and mobile after learner-progress updates.
+- [x] Verify the Academy manager interface renders the active daily reminder schedule after authenticated access.
+- [x] Trigger the manual Academy reminder from the authenticated manager interface and confirm visible success feedback with a learning notification record.
+- [x] Trigger the active Academy manager control in an authenticated UI session and confirm the in-app reminder success feedback plus notification record.
+- [x] Consolidate the attached FireGuard projects into one canonical application while preserving selected workflows, schemas, and visual systems.
+- [x] Preserve the current FireGuard visual system and Academy while integrating original role-PIN, five-role, service, evidence, review, certificate, and exception capabilities.
+- [x] Merge the concurrent Chat Operations Hub integration into the canonical FireGuard application without overwriting Academy, role-PIN, or service-compliance workflows.
+- [x] Exercise role-PIN manager and technician sessions end to end and confirm role-based access.
+- [x] Exercise the service-compliance lifecycle from checklist completion through evidence, review, exception, and certificate outcomes.
+- [x] Resolve current runtime import errors and validate the unified Chat, Academy, and operations screens before publishing.
+- [x] Confirm an enforced role-PIN authorization boundary with a forbidden technician action.
+- [x] Capture authenticated Chat, Academy, and service-compliance interface validation after the merge.
+- [x] Isolate fresh runtime logs and confirm authenticated navigation causes no current import or module failures.
+- [x] Validate the merged profile workspace and notification dropdown without regressing role-PIN, Chat, Academy, or service-compliance functionality.
+- [x] Recheck the unified schema migration sequence and automated test suite after the profile workspace merge.
+- [x] Validate the merged profile workspace and notification dropdown in an authenticated browser session, including profile and dropdown interactions.
+- [x] Re-run authenticated Chat, Academy, and service-compliance smoke checks after the profile and notification merge.
+- [x] Re-open the authenticated service-compliance workbench after the profile and notification merge and verify checklist, evidence, readiness, and action controls.
+- [x] Validate persisted notification priorities, filtering, sorting, and unread-badge behaviour without regressing the unified FireGuard workflow.
+- [x] Verify high, medium, and low notification priorities are persisted and visibly labelled in the authenticated notification centre.
+- [x] Verify notification type and priority filters plus newest, oldest, and highest-priority sorting with multiple alert records.
+- [x] Verify the authenticated unread badge appears for a new alert and clears after it is marked read.
+- [x] Verify newest-first and oldest-first notification sorting visibly reverses the multiple-record alert order in the authenticated notification centre.
+- [x] Capture deterministic authenticated newest-versus-oldest ordering with alerts that have distinct creation times.
+- [x] Verify the same notification set’s creation-time ordering with a database query to support the rendered sort validation.
+- [x] Validate the merged permission-aware header navigation, contextual Settings links, Support destination, and retained role-PIN/compliance routes at desktop and mobile widths.
+- [x] Re-validate the final header tabs, Settings links, and Support destination in an authenticated session at desktop and mobile widths.
+- [x] Verify the retained public role-PIN access route and authenticated service-compliance workbench render after the final navigation merge at desktop and mobile widths.
+- [x] Capture authenticated mobile-session evidence for final header tabs, Settings links, and Support navigation.
+- [x] Capture authenticated mobile-session evidence for public role-PIN access and the service-compliance workbench after the navigation merge.
+- [x] Restore the persistent desktop sidebar as FireGuard’s primary navigation while keeping the top bar limited to context and utilities.
+- [x] Add a compact profile dropdown with My profile, Admin controls, and Sign out actions.
+- [x] Validate the restored sidebar and profile menu at desktop and mobile widths, including functional sign-out.
+- [x] Validate the restored profile dropdown in an authenticated mobile-width session, including My profile, Admin controls, and Sign out actions.
+- [x] Re-run an authenticated mobile smoke check of the sidebar-restored navigation shell with inspectable browser-session evidence.
+- [x] Exercise My profile and Sign out from the authenticated mobile profile dropdown and confirm the session returns to role-PIN access.
+- [x] Validate the merged accessible extinguisher-gas loading state alongside the restored sidebar and account controls.
+- [x] Reproduce live Academy, Chat, Notifications, and Operations loading states and capture the extinguisher-gas loader within the restored FireGuard shell.
+- [x] Verify the live loader remains usable beside the sidebar/top-bar/profile-menu shell at desktop and mobile widths, including reduced-motion handling.
+- [x] Capture inspectable mobile-width browser evidence of the active extinguisher-gas loader in the restored FireGuard shell.
+- [x] Exercise reduced-motion while the active loader is rendered and verify the non-animated fallback behaves correctly.
+- [x] Capture a browser-view mobile loading route that visibly includes the active extinguisher-gas loader copy and restored FireGuard shell chrome.
+- [x] Map FireGuard product outcomes, safety constraints, and the current application capability baseline for an autonomous improvement program.
+- [x] Write 100 small, dependency-ordered FireGuard improvement prompts covering operations, compliance, Academy, collaboration, administration, quality, and launch readiness.
+- [x] Configure a safe staged autonomous execution method that checkpoints, validates, and pauses for user-only decisions.
+- [x] Activate unattended low-risk incremental execution and begin the first safe improvement prompt.
+- [x] Document FireGuard’s core operational objects and their relationships in a schema-aligned domain glossary.
+- [x] Add a workspace health panel that reports live record counts, labels demonstration records, and provides an empty-state fallback.
+- [x] Add accessible direct links from Workspace Health metrics to the corresponding operational lists and preserve meaningful destination filters.
+- [x] Remove the unused Sites destination query parameter and cover every metric destination URL with focused regression assertions.
+- [x] Add a filtered Sites directory destination for the Workspace Health Sites metric.
+- [x] Add focused regression tests for Workspace Health destination URLs and target-page query-filter parsing.
+- [x] Synchronize the canonical preview, assess the 100-step program, and execute exactly one earliest eligible low-risk increment.
+- [x] Audit every primary FireGuard route for a single operational purpose and add any missing outcome-oriented page descriptions.
+- [x] Verify every canonical primary route has a unique visible outcome-oriented heading and description, updating any remaining gaps.
+- [x] Add focused coverage for all route-purpose mappings and delegated Settings header behavior.
+- [x] Add direct rendered-header coverage for delegated Preferences and Access settings routes.
+- [x] Record route-by-route visible-header evidence for every canonical App route before closing the audit.
+- [x] Expand the route-purpose audit with every App route and the /staff alias, including visible heading, purpose copy, and verification method.
+- [x] Render the delegated Settings header in Vitest and assert the visible Preferences and Access title and description output.
+- [x] Assert each audited FireGuard route module contains its documented visible heading and outcome-oriented purpose-copy fragment.
+- [x] Add a routed-surface test that mounts delegated Settings/Profile states and asserts their rendered heading and purpose copy.
+- [x] Directly validate the /staff alias and record its rendered purpose-copy evidence.
+- [x] Select, implement, validate, and checkpoint exactly one next eligible low-risk FireGuard program prompt.
+- [x] Standardize loading, empty, error, and success states across FireGuard core operations pages with focused coverage.
+- [x] Apply shared empty and success treatments to Clients, Service, and Exceptions without replacing their safe page-specific workflows.
+- [x] Add focused page-integration coverage for standardized states across Dashboard, Clients, Service, Reviews, and Exceptions.
+- [x] Capture browser-visible loading, empty, error, and success states for the standardized operational pages before release.
+- [x] Render-test loading, error, and empty states through the actual Dashboard, Clients, Service, Reviews, and Exceptions page components.
+- [x] Record a recoverable error-state validation without changing operational data.
+- [x] Assert the shared retry control invokes only the supplied refetch action and leaves operational data untouched.
+- [x] Select, implement, validate, and checkpoint exactly one next eligible low-risk FireGuard program prompt after core-state standardization.
+- [x] Add a non-destructive environment banner that appears only when FireGuard sample records are present.
+- [x] Select, implement, validate, and checkpoint exactly one next eligible low-risk FireGuard program prompt after the environment banner.
+- [x] Add a role-aware, safe What Changed panel that summarizes recent operational records and has an empty state.
+- [x] Ensure the What Changed focused test is included in Vitest and validate its empty and role-specific panel states before checkpointing.
+- [x] Select, implement, validate, and checkpoint exactly one next eligible low-risk FireGuard program prompt after the What Changed panel.
+- [x] Add a compact keyboard-accessible desktop route switcher with search, focus handling, and route selection.
+- [x] Improve route-specific document titles for every FireGuard page.
+- [x] Verify and simplify the FireGuard shell root wrapper so the intended full-height layout container is not surrounded by an unnecessary empty div.
+- [x] Redesign the FireGuard sidebar as an expanded labeled rail on full desktop, a compact icon rail on tablet, and preserve the mobile bottom navigation.
+- [x] Increase collapsed tablet rail targets to at least 44px without changing the compact icon-only navigation model.
+- [x] Make existing FireGuard dashboard visualizations live-data driven and interactive on hover and keyboard focus.
+- [x] Replace the static Coverage today map with a live data-backed hoverable coverage visualization and focused tests.
+- [x] Redesign the Service schedule as a responsive, information-rich live-data table while preserving role-aware actions and filters.
+- [x] Reflow the Service schedule into fully visible stacked cards at tablet width while preserving the synchronized typography scale.
+- [x] Reduce shared FireGuard action-button sizing and corresponding Service table controls while retaining accessible touch targets.
+- [x] Validate the merged creator-only temporary-thread extension and early archival controls without regressing the restored sidebar or account menu.
+- [x] Re-validate the restored desktop sidebar after the temporary-thread merge in an authenticated browser session.
+- [x] Validate tab-owned contextual header sections without regressing the persistent sidebar or compact account menu.
+- [x] Capture a deterministic mobile frame rendering of the live Chat loader that exposes both loader copy and FireGuard shell text in the browser session.
+- [x] Confirm the same mobile frame returns to normal FireGuard content after the temporary loading delay is removed.
+- [x] Re-capture a 375px Chat loader frame using only a real delayed inbox request, without a query-parameter or code-forced loader override.
+- [x] Re-capture the same 375px Chat route after removing the temporary delay and verify normal content replaces the loader with no validation-only code or assets present.
+- [x] Capture a deterministic mobile frame rendering of the live Chat loader that exposes both loader copy and FireGuard shell text in the browser session.
+- [x] Confirm the same mobile frame returns to normal FireGuard content after the temporary loading delay is removed.
+- [x] Re-capture a 375px Chat loader frame using only a real delayed inbox request, without a query-parameter or code-forced loader override.
+- [x] Re-capture the same 375px Chat route after removing the temporary delay and verify normal content replaces the loader with no validation-only code or assets present.
+- [x] Record that the genuine 375px loader was captured through a temporary 15-second development inbox delay and that the same route returned normal content after the delay was removed.
+- [x] Capture and inspect a 375px Chat loader frame using only the real delayed inbox request, visibly showing both loader copy and FireGuard shell text.
+- [x] Capture and inspect the same 375px Chat route after delay removal, visibly showing normal Chat content replacing the loader.

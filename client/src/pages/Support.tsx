@@ -1,0 +1,7 @@
+/** Support is a first-class workspace destination now that navigation is consolidated into the header. */
+import { BookOpenCheck, LifeBuoy, ShieldCheck } from "lucide-react";
+import { PageHeader, SurfaceTitle } from "@/components/FireGuardUI";
+
+export default function Support() {
+  return <div className="page-enter"><PageHeader eyebrow="Support" title="Operational support" description="Use the right FireGuard resource to keep work moving without bypassing operational controls." /><section className="support-grid"><article className="surface-card support-card"><LifeBuoy size={20} /><SurfaceTitle title="Need help with a task?" subtitle="Start from the related workspace tab" /><p>For service, evidence, or exception questions, open the relevant workspace tab so the current operational context remains visible.</p></article><article className="surface-card support-card"><BookOpenCheck size={20} /><SurfaceTitle title="Training support" subtitle="Use Academy for role-specific guidance" /><p>Academy contains the role-appropriate learning paths and completion records connected to your FireGuard account.</p></article><article className="surface-card support-card"><ShieldCheck size={20} /><SurfaceTitle title="Access support" subtitle="Keep credentials and roles accountable" /><p>Use Settings for personal preferences and PIN management. Role changes remain visible through your profile audit trail.</p></article></section></div>;
+}

@@ -1,0 +1,1 @@
+ALTER TABLE `profile_preferences` ADD `compactDensity` boolean DEFAULT false NOT NULL;
